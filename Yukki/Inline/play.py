@@ -1,8 +1,9 @@
+import random
+
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
 
 from Yukki import db_mem
-
 
 
 selections = [
@@ -23,6 +24,7 @@ selections = [
 
 
 def url_markup(videoid, duration, user_id, query, query_type):
+    bar = random.choice(selections)
     buttons = [
         [
             InlineKeyboardButton(
@@ -53,6 +55,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
 
 
 def url_markup2(videoid, duration, user_id):
+    bar = random.choice(selections)
     buttons = [
         [
             InlineKeyboardButton(
