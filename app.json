@@ -120,7 +120,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/Kayzu02/KayMusic",
+      "value": "https://github.com/Kayxzy/KayMusic",
       "required": true
     },
     "UPSTREAM_BRANCH": {
